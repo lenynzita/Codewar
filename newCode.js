@@ -1,0 +1,23 @@
+// In JavaScript, if..else is the most basic conditional statement, it consists of three parts:condition, statement1, statement2, like this:
+
+// if (condition) statementa
+// else           statementb
+// It means that if the condition is true, then execute the statementa, otherwise execute the statementb. If the statementa or statementb are more than one line, you need to add { and } at the head and tail of statements in JS, to keep the same indentation on Python and to put an end in Ruby where it indeed ends.
+
+// For example, if we want to judge whether a number is odd or even, we can write code like this:
+
+// function oddEven(n){
+
+function saleHotdogs(n){
+    var money = 0;
+    if (n < 5 ) {
+      money = n * 100
+    }
+    else if ( n >= 5 && n < 10 ) {
+      money = n * 95
+    }
+    else if ( n >= 10 )  {
+     money = n * 90 
+    }
+    return money
+  }
